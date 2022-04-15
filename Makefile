@@ -1,5 +1,5 @@
 SHELL = /bin/bash
-ESHOP_URL = http://10.6.0.93:5100
+ESHOP_URL = http://eshoponcontainers:5100
 IMAGE_NAME = load_generator_selenium
 CONTAINER_NAME = load_generator_selenium
 NUM_USERS = 10
