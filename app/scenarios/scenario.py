@@ -37,10 +37,5 @@ class Scenario:
         home = self.driver.find_element_by_xpath('//a[@href="/"]')
         home.click()
         print('returned back Home..')
-        try:
-            user.logout()
-            print(f"{user.email} logged out")
-        except Exception as e:
-            pass
         
         return True
